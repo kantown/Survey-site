@@ -1,0 +1,84 @@
+<html>
+	<head>
+		<title>Survey Form</title>
+		<link rel="stylesheet" type="text/css" href="index.css">
+	</head>
+	<body>
+		<main>
+		  <header>
+			<h1>Survey Form</h1>
+			<h2>Thank you for taking the time to help us </h2>
+		  </header>
+		  <div class="menu">
+			<form id="generel_form">
+			  <div class="form_div">
+				<label for="name"><b>Name</b></label>
+				<input name="name" type="text" class="textarea" placeholder="Enter your name"><br>
+				<label for="email"><b>Email</b></label>
+				<input name="email" type="email" class="textarea" placeholder="Enter your email"><br>
+				<label for="age"><b>Age</b> (optional)</label>
+				<input name="age" type="text" class="textarea" placeholder="Enter your age"><br>
+				<label for="list"><b>Which option best describes your current role?</b></label>
+				<select class="list" name="role">
+				  <option disabled selected value>Select current role</option>
+				  <option>Student</option>
+				  <option>Full time job</option>
+				  <option>Unemployed</option>
+				  <option>Prefer not to say</option>
+				  <option>Other</option>
+				</select><br>
+				  <div id="div-recommend">
+					<label name="recomend"><b>Would you recommend out products to a friend?</b></label>
+					<label name="recomend">
+					  <input class="rec-radio" type="radio" value="definietly">
+					  Definietly
+					</label>
+					<label name="recomend">
+					  <input class="rec-radio" type="radio" value="maybe">
+					  Maybe
+					</label>
+					<label name="recomend">
+					 <input class="rec-radio" type="radio" value="notsure">
+					  Not sure
+					</label><br>
+					<label name="improvement"><b>What kind of transport do you usually use?</b> (Check all that apply)</label>
+					<label name="transport">
+					  <input class="checkbox" type="checkbox" value="Front-end">
+					 Your Car
+					</label>
+					<label name="transport">
+					  <input class="checkbox" type="checkbox" value="Back-end">
+					  Bus
+					</label>
+					<label name="transport">
+					 <input class="checkbox" type="checkbox" value="data">
+					  Bicycle
+					</label>
+					<label name="transport">
+					 <input class="checkbox" type="checkbox" value="challenges">
+					  Train
+					</label>
+					<label name="transport">
+					 <input class="checkbox" type="checkbox" value="opensourcecommunity">
+					  Walk
+					</label>
+					<label name="improvement">
+					 <input class="checkbox" type="checkbox" value="gitterhelprooms">
+					  Taxi
+					</label>
+					<label name="transport">
+					 <input class="checkbox" type="checkbox" value="videos">
+					  Subway
+					</label>
+					<br>
+					<label for="suggestions"><b>Any commenets or suggestions?</b></label>
+				<textarea name="suggestions" type="text" id="suggestions" class="textarea" placeholder="Enter your comment here..."></textarea><br>
+					
+					<button type="submit" class="submit"> Submit </button>
+				  </div>
+			  </div>
+			</form>
+		  </div>
+		</main>
+	</body>
+</html>

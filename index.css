@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200i,400&display=swap');
+
+body {
+  background-image: linear-gradient(
+      115deg,
+      rgba(58, 58, 158, 0.7),
+      rgba(136, 136, 206, 0.6)
+    ),
+    url(https://www.insidehighered.com/sites/default/server_files/media/iStock-520374378.jpg);
+    background-repreat: no-repeat;
+    font-family: Poppins;
+    font-size: 1rem;
+}
+main {
+  display:flex;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  padding: 3rem;
+  color: #eeeeee;
+}
+h2 {
+  font-size: 1.3rem;
+}
+
+.menu {
+  padding: 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+form {
+  background: rgb(27, 27, 50, 0.7);
+  width: 47rem;
+  padding: 1rem;
+  border-radius: 3%;
+}
+
+.form_div {
+  line-height: 2;
+  width: 47rem;
+  padding: 1rem;
+  position: relative;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  color: #eeeeee;
+}
+
+.textarea {
+  width: 44rem;
+  font-size: 1.1rem;
+}
+
+input {
+  line-height: 2.1;
+  border-radius: 0.4rem;
+}
+
+.list {
+  height: 2.9rem;
+  font-size: 1.1rem;
+  width: 44.5rem;
+  border-radius: 0.4rem;
+}
+
+#div-recommend {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: 1.2rem;
+}
+
+.rec-radio {
+  min-height: 0.95rem;
+  min-width: 1rem;
+}
+
+option {
+  font-size: 1.1rem;
+}
+
+.checkbox {
+  min-height: 0.95rem;
+  min-width: 1rem;
+}
+
+.textarea-suggestions {
+  font-size: 1
+}
+
+#suggestions {
+  height: 7rem;
+  font-size: 1.2rem;
+  width: 44.5rem;
+  border-radius: 0.2rem;
+}
+
+.submit {
+  width: 45rem;
+  height: 3rem;
+  font-size: 1.3rem;
+  font-family: Poppins;
+  color: #eeeeee;
+  background-color: rgb(70, 190, 120);
+}
